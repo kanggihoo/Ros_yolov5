@@ -1,0 +1,13 @@
+sensor_msgs/Image color_image
+sensor_msgs/Image depth_image
+bool success 
+
+float32 x
+float32 y
+float32 z
+int32[] center
+float32 angle
+string class_id
+
+
+
