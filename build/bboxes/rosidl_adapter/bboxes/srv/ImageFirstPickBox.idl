@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from bboxes/srv/ImageFirstPickBox.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module bboxes {
+  module srv {
+    @verbatim (language="comment", text=
+      " request")
+    struct ImageFirstPickBox_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      " respond")
+    struct ImageFirstPickBox_Response {
+      sensor_msgs::msg::Image color_image;
+
+      sensor_msgs::msg::Image depth_image;
+
+      boolean success;
+
+      float x;
+
+      float y;
+
+      float z;
+
+      sequence<int32> center;
+
+      float angle;
+
+      string class_id;
+    };
+  };
+};

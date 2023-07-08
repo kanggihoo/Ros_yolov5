@@ -1,0 +1,6 @@
+msg/FirstPickBox.idl
+msg/FirstPickBox.msg
+srv/ImageFirstPickBox.idl
+srv/ImageFirstPickBox.srv
+srv/ImageFirstPickBox_Request.msg
+srv/ImageFirstPickBox_Response.msg

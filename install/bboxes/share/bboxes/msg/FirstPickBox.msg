@@ -1,0 +1,1 @@
+/home/kkh/Ros_yolov5/src/bboxes/msg/FirstPickBox.msg

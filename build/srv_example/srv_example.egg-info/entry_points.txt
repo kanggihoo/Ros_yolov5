@@ -1,0 +1,4 @@
+[console_scripts]
+srv_client = srv_example.srv_client:main
+srv_server = srv_example.srv_server:main
+

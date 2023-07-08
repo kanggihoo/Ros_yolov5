@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+resource/srv_example
+srv_example/__init__.py
+srv_example/srv_client.py
+srv_example/srv_server.py
+srv_example.egg-info/PKG-INFO
+srv_example.egg-info/SOURCES.txt
+srv_example.egg-info/dependency_links.txt
+srv_example.egg-info/entry_points.txt
+srv_example.egg-info/requires.txt
+srv_example.egg-info/top_level.txt
+srv_example.egg-info/zip-safe

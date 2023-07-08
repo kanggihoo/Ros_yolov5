@@ -1,0 +1,1 @@
+/home/kkh/Ros_yolov5/build/bboxes/rosidl_generator_cpp/bboxes/msg/detail/first_pick_box__type_support.hpp

@@ -1,0 +1,1 @@
+/home/kkh/Ros_yolov5/build/bboxes/rosidl_cmake/srv/ImageFirstPickBox_Request.msg

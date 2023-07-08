@@ -1,0 +1,26 @@
+[0.860s] Invoking command in '/home/kkh/Ros_yolov5/build/srv_example': PYTHONPATH=/home/kkh/Ros_yolov5/build/srv_example/prefix_override:/home/kkh/Ros_yolov5/install/srv_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/kkh/Ros_yolov5/build/srv_example/build --no-deps install_data
+[1.080s] running develop
+[1.209s] running egg_info
+[1.209s] creating srv_example.egg-info
+[1.209s] writing srv_example.egg-info/PKG-INFO
+[1.209s] writing dependency_links to srv_example.egg-info/dependency_links.txt
+[1.209s] writing entry points to srv_example.egg-info/entry_points.txt
+[1.209s] writing requirements to srv_example.egg-info/requires.txt
+[1.209s] writing top-level names to srv_example.egg-info/top_level.txt
+[1.210s] writing manifest file 'srv_example.egg-info/SOURCES.txt'
+[1.239s] reading manifest file 'srv_example.egg-info/SOURCES.txt'
+[1.239s] writing manifest file 'srv_example.egg-info/SOURCES.txt'
+[1.268s] running build_ext
+[1.268s] Creating /home/kkh/Ros_yolov5/install/srv_example/lib/python3.8/site-packages/site.py
+[1.270s] Creating /home/kkh/Ros_yolov5/install/srv_example/lib/python3.8/site-packages/srv-example.egg-link (link to .)
+[1.271s] Installing srv_client script to /home/kkh/Ros_yolov5/install/srv_example/lib/srv_example
+[1.271s] Installing srv_server script to /home/kkh/Ros_yolov5/install/srv_example/lib/srv_example
+[1.271s] 
+[1.271s] Installed /home/kkh/Ros_yolov5/build/srv_example
+[1.271s] running install_data
+[1.271s] creating /home/kkh/Ros_yolov5/install/srv_example/share/ament_index
+[1.271s] creating /home/kkh/Ros_yolov5/install/srv_example/share/ament_index/resource_index
+[1.271s] creating /home/kkh/Ros_yolov5/install/srv_example/share/ament_index/resource_index/packages
+[1.272s] copying resource/srv_example -> /home/kkh/Ros_yolov5/install/srv_example/share/ament_index/resource_index/packages
+[1.272s] copying package.xml -> /home/kkh/Ros_yolov5/install/srv_example/share/srv_example
+[1.296s] Invoked command in '/home/kkh/Ros_yolov5/build/srv_example' returned '0': PYTHONPATH=/home/kkh/Ros_yolov5/build/srv_example/prefix_override:/home/kkh/Ros_yolov5/install/srv_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/kkh/Ros_yolov5/build/srv_example/build --no-deps install_data

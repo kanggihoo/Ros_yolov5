@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+resource/yolov5_ros
+yolov5_ros/__init__.py
+yolov5_ros/export.py
+yolov5_ros/image_firstpick.py
+yolov5_ros/publish_image_first.py
+yolov5_ros/service_client.py
+yolov5_ros/subscribe_image_first.py
+yolov5_ros.egg-info/PKG-INFO
+yolov5_ros.egg-info/SOURCES.txt
+yolov5_ros.egg-info/dependency_links.txt
+yolov5_ros.egg-info/entry_points.txt
+yolov5_ros.egg-info/requires.txt
+yolov5_ros.egg-info/top_level.txt
+yolov5_ros.egg-info/zip-safe

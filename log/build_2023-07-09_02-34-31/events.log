@@ -1,0 +1,324 @@
+[0.000000] (-) TimerEvent: {}
+[0.000217] (bboxes) JobQueued: {'identifier': 'bboxes', 'dependencies': OrderedDict()}
+[0.000262] (srv_example) JobQueued: {'identifier': 'srv_example', 'dependencies': OrderedDict()}
+[0.000282] (yolov5_ros) JobQueued: {'identifier': 'yolov5_ros', 'dependencies': OrderedDict()}
+[0.000297] (bboxes) JobStarted: {'identifier': 'bboxes'}
+[0.008821] (srv_example) JobStarted: {'identifier': 'srv_example'}
+[0.019871] (yolov5_ros) JobStarted: {'identifier': 'yolov5_ros'}
+[0.031021] (bboxes) JobProgress: {'identifier': 'bboxes', 'progress': 'cmake'}
+[0.031506] (bboxes) Command: {'cmd': ['/home/kkh/.local/bin/cmake', '/home/kkh/Ros_yolov5/src/bboxes', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/kkh/Ros_yolov5/install/bboxes'], 'cwd': '/home/kkh/Ros_yolov5/build/bboxes', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'kkh'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '2410'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kkh/yolov5_ros2/install/bboxes/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/kkh'), ('OLDPWD', '/home/kkh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2217'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7410'), ('_colcon_cd_root', '/home/kkh/gcamp_ros2_ws'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/kkh/yolov5_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kkh'), ('JOURNAL_STREAM', '8:54530'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kkh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/kkh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/kkh-Inspiron-5502:@/tmp/.ICE-unix/2447,unix/kkh-Inspiron-5502:/tmp/.ICE-unix/2447'), ('INVOCATION_ID', 'f2451840970e45daa203acbfb28866e9'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kkh/yolov5_ros2/install/yolov5_ros:/home/kkh/yolov5_ros2/install/srv_example:/home/kkh/yolov5_ros2/install/bboxes:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:968c8341-9b8a-4fa4-b050-4317c6c93629'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kkh/Ros_yolov5/build/bboxes'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kkh/yolov5_ros2/build/yolov5_ros:/home/kkh/yolov5_ros2/install/yolov5_ros/lib/python3.8/site-packages:/home/kkh/yolov5_ros2/build/srv_example:/home/kkh/yolov5_ros2/install/srv_example/lib/python3.8/site-packages:/home/kkh/yolov5_ros2/install/bboxes/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/kkh/yolov5_ros2/install/bboxes:/home/kkh/yolov5_ros2/install/yolov5_ros:/home/kkh/yolov5_ros2/install/srv_example:/opt/ros/foxy')]), 'shell': False}
+[0.098657] (-) TimerEvent: {}
+[0.199205] (-) TimerEvent: {}
+[0.281023] (bboxes) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.282459] (bboxes) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.282727] (bboxes) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.282799] (bboxes) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.282861] (bboxes) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.282920] (bboxes) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.282979] (bboxes) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.283037] (bboxes) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299151] (bboxes) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.299318] (-) TimerEvent: {}
+[0.319035] (bboxes) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.319588] (bboxes) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.320583] (bboxes) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.325100] (bboxes) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.356632] (bboxes) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.356795] (bboxes) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.399497] (-) TimerEvent: {}
+[0.499823] (-) TimerEvent: {}
+[0.531218] (bboxes) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.554385] (bboxes) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[0.583129] (bboxes) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.589731] (bboxes) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.599900] (-) TimerEvent: {}
+[0.658425] (bboxes) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.700004] (-) TimerEvent: {}
+[0.703994] (bboxes) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.779449] (bboxes) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800093] (-) TimerEvent: {}
+[0.820770] (bboxes) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[0.868197] (srv_example) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/kkh/Ros_yolov5/build/srv_example/build', '--no-deps', 'install_data'], 'cwd': '/home/kkh/Ros_yolov5/build/srv_example', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en', 'USER': 'kkh', 'LC_TIME': 'ko_KR.UTF-8', 'SSH_AGENT_PID': '2410', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kkh/yolov5_ros2/install/bboxes/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/kkh', 'OLDPWD': '/home/kkh', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '2217', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7410', '_colcon_cd_root': '/home/kkh/gcamp_ros2_ws', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/kkh/yolov5_ros2/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'kkh', 'JOURNAL_STREAM': '8:54530', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kkh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/kkh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/kkh-Inspiron-5502:@/tmp/.ICE-unix/2447,unix/kkh-Inspiron-5502:/tmp/.ICE-unix/2447', 'INVOCATION_ID': 'f2451840970e45daa203acbfb28866e9', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kkh/yolov5_ros2/install/yolov5_ros:/home/kkh/yolov5_ros2/install/srv_example:/home/kkh/yolov5_ros2/install/bboxes:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:968c8341-9b8a-4fa4-b050-4317c6c93629', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kkh/Ros_yolov5/build/srv_example', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kkh/Ros_yolov5/build/srv_example/prefix_override:/home/kkh/Ros_yolov5/install/srv_example/lib/python3.8/site-packages:/home/kkh/yolov5_ros2/build/yolov5_ros:/home/kkh/yolov5_ros2/install/yolov5_ros/lib/python3.8/site-packages:/home/kkh/yolov5_ros2/build/srv_example:/home/kkh/yolov5_ros2/install/srv_example/lib/python3.8/site-packages:/home/kkh/yolov5_ros2/install/bboxes/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/kkh/yolov5_ros2/install/bboxes'}, 'shell': False}
+[0.893750] (yolov5_ros) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/kkh/Ros_yolov5/build/yolov5_ros/build', '--no-deps', 'install_data'], 'cwd': '/home/kkh/Ros_yolov5/build/yolov5_ros', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en', 'USER': 'kkh', 'LC_TIME': 'ko_KR.UTF-8', 'SSH_AGENT_PID': '2410', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kkh/yolov5_ros2/install/bboxes/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/kkh', 'OLDPWD': '/home/kkh', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '2217', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7410', '_colcon_cd_root': '/home/kkh/gcamp_ros2_ws', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/kkh/yolov5_ros2/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'kkh', 'JOURNAL_STREAM': '8:54530', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kkh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/kkh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/kkh-Inspiron-5502:@/tmp/.ICE-unix/2447,unix/kkh-Inspiron-5502:/tmp/.ICE-unix/2447', 'INVOCATION_ID': 'f2451840970e45daa203acbfb28866e9', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kkh/yolov5_ros2/install/yolov5_ros:/home/kkh/yolov5_ros2/install/srv_example:/home/kkh/yolov5_ros2/install/bboxes:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:968c8341-9b8a-4fa4-b050-4317c6c93629', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kkh/Ros_yolov5/build/yolov5_ros', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kkh/Ros_yolov5/build/yolov5_ros/prefix_override:/home/kkh/Ros_yolov5/install/yolov5_ros/lib/python3.8/site-packages:/home/kkh/yolov5_ros2/build/yolov5_ros:/home/kkh/yolov5_ros2/install/yolov5_ros/lib/python3.8/site-packages:/home/kkh/yolov5_ros2/build/srv_example:/home/kkh/yolov5_ros2/install/srv_example/lib/python3.8/site-packages:/home/kkh/yolov5_ros2/install/bboxes/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/kkh/yolov5_ros2/install/bboxes'}, 'shell': False}
+[0.900197] (-) TimerEvent: {}
+[0.924650] (bboxes) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.960218] (bboxes) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.000371] (-) TimerEvent: {}
+[1.088736] (srv_example) StdoutLine: {'line': b'running develop\n'}
+[1.100538] (-) TimerEvent: {}
+[1.116548] (yolov5_ros) StdoutLine: {'line': b'running develop\n'}
+[1.151966] (bboxes) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.200735] (-) TimerEvent: {}
+[1.217563] (srv_example) StdoutLine: {'line': b'running egg_info\n'}
+[1.217739] (srv_example) StdoutLine: {'line': b'creating srv_example.egg-info\n'}
+[1.217811] (srv_example) StdoutLine: {'line': b'writing srv_example.egg-info/PKG-INFO\n'}
+[1.217998] (srv_example) StdoutLine: {'line': b'writing dependency_links to srv_example.egg-info/dependency_links.txt\n'}
+[1.218114] (srv_example) StdoutLine: {'line': b'writing entry points to srv_example.egg-info/entry_points.txt\n'}
+[1.218285] (srv_example) StdoutLine: {'line': b'writing requirements to srv_example.egg-info/requires.txt\n'}
+[1.218396] (srv_example) StdoutLine: {'line': b'writing top-level names to srv_example.egg-info/top_level.txt\n'}
+[1.219136] (srv_example) StdoutLine: {'line': b"writing manifest file 'srv_example.egg-info/SOURCES.txt'\n"}
+[1.246748] (yolov5_ros) StdoutLine: {'line': b'running egg_info\n'}
+[1.246904] (yolov5_ros) StdoutLine: {'line': b'creating yolov5_ros.egg-info\n'}
+[1.247072] (yolov5_ros) StdoutLine: {'line': b'writing yolov5_ros.egg-info/PKG-INFO\n'}
+[1.247380] (yolov5_ros) StdoutLine: {'line': b'writing dependency_links to yolov5_ros.egg-info/dependency_links.txt\n'}
+[1.247470] (yolov5_ros) StdoutLine: {'line': b'writing entry points to yolov5_ros.egg-info/entry_points.txt\n'}
+[1.247533] (yolov5_ros) StdoutLine: {'line': b'writing requirements to yolov5_ros.egg-info/requires.txt\n'}
+[1.247592] (yolov5_ros) StdoutLine: {'line': b'writing top-level names to yolov5_ros.egg-info/top_level.txt\n'}
+[1.247749] (srv_example) StdoutLine: {'line': b"reading manifest file 'srv_example.egg-info/SOURCES.txt'\n"}
+[1.248045] (srv_example) StdoutLine: {'line': b"writing manifest file 'srv_example.egg-info/SOURCES.txt'\n"}
+[1.248383] (yolov5_ros) StdoutLine: {'line': b"writing manifest file 'yolov5_ros.egg-info/SOURCES.txt'\n"}
+[1.276715] (yolov5_ros) StdoutLine: {'line': b"reading manifest file 'yolov5_ros.egg-info/SOURCES.txt'\n"}
+[1.276917] (srv_example) StdoutLine: {'line': b'running build_ext\n'}
+[1.277181] (yolov5_ros) StdoutLine: {'line': b"writing manifest file 'yolov5_ros.egg-info/SOURCES.txt'\n"}
+[1.277335] (srv_example) StdoutLine: {'line': b'Creating /home/kkh/Ros_yolov5/install/srv_example/lib/python3.8/site-packages/site.py\n'}
+[1.279046] (srv_example) StdoutLine: {'line': b'Creating /home/kkh/Ros_yolov5/install/srv_example/lib/python3.8/site-packages/srv-example.egg-link (link to .)\n'}
+[1.279699] (srv_example) StdoutLine: {'line': b'Installing srv_client script to /home/kkh/Ros_yolov5/install/srv_example/lib/srv_example\n'}
+[1.279834] (srv_example) StdoutLine: {'line': b'Installing srv_server script to /home/kkh/Ros_yolov5/install/srv_example/lib/srv_example\n'}
+[1.279979] (srv_example) StdoutLine: {'line': b'\n'}
+[1.280097] (srv_example) StdoutLine: {'line': b'Installed /home/kkh/Ros_yolov5/build/srv_example\n'}
+[1.280210] (srv_example) StdoutLine: {'line': b'running install_data\n'}
+[1.280296] (srv_example) StdoutLine: {'line': b'creating /home/kkh/Ros_yolov5/install/srv_example/share/ament_index\n'}
+[1.280381] (srv_example) StdoutLine: {'line': b'creating /home/kkh/Ros_yolov5/install/srv_example/share/ament_index/resource_index\n'}
+[1.280472] (srv_example) StdoutLine: {'line': b'creating /home/kkh/Ros_yolov5/install/srv_example/share/ament_index/resource_index/packages\n'}
+[1.280562] (srv_example) StdoutLine: {'line': b'copying resource/srv_example -> /home/kkh/Ros_yolov5/install/srv_example/share/ament_index/resource_index/packages\n'}
+[1.280652] (srv_example) StdoutLine: {'line': b'copying package.xml -> /home/kkh/Ros_yolov5/install/srv_example/share/srv_example\n'}
+[1.300835] (-) TimerEvent: {}
+[1.303509] (srv_example) CommandEnded: {'returncode': 0}
+[1.308379] (yolov5_ros) StdoutLine: {'line': b'running build_ext\n'}
+[1.308654] (yolov5_ros) StdoutLine: {'line': b'Creating /home/kkh/Ros_yolov5/install/yolov5_ros/lib/python3.8/site-packages/site.py\n'}
+[1.310159] (yolov5_ros) StdoutLine: {'line': b'Creating /home/kkh/Ros_yolov5/install/yolov5_ros/lib/python3.8/site-packages/yolov5-ros.egg-link (link to .)\n'}
+[1.311388] (yolov5_ros) StdoutLine: {'line': b'Installing image_firstpick script to /home/kkh/Ros_yolov5/install/yolov5_ros/lib/yolov5_ros\n'}
+[1.311542] (yolov5_ros) StdoutLine: {'line': b'Installing publish_image_first script to /home/kkh/Ros_yolov5/install/yolov5_ros/lib/yolov5_ros\n'}
+[1.311692] (yolov5_ros) StdoutLine: {'line': b'Installing srv_client script to /home/kkh/Ros_yolov5/install/yolov5_ros/lib/yolov5_ros\n'}
+[1.311764] (yolov5_ros) StdoutLine: {'line': b'Installing subscribe_image_first script to /home/kkh/Ros_yolov5/install/yolov5_ros/lib/yolov5_ros\n'}
+[1.311839] (yolov5_ros) StdoutLine: {'line': b'\n'}
+[1.311915] (yolov5_ros) StdoutLine: {'line': b'Installed /home/kkh/Ros_yolov5/build/yolov5_ros\n'}
+[1.311988] (yolov5_ros) StdoutLine: {'line': b'running install_data\n'}
+[1.312041] (yolov5_ros) StdoutLine: {'line': b'creating /home/kkh/Ros_yolov5/install/yolov5_ros/share/ament_index\n'}
+[1.312095] (yolov5_ros) StdoutLine: {'line': b'creating /home/kkh/Ros_yolov5/install/yolov5_ros/share/ament_index/resource_index\n'}
+[1.312147] (yolov5_ros) StdoutLine: {'line': b'creating /home/kkh/Ros_yolov5/install/yolov5_ros/share/ament_index/resource_index/packages\n'}
+[1.312276] (yolov5_ros) StdoutLine: {'line': b'copying resource/yolov5_ros -> /home/kkh/Ros_yolov5/install/yolov5_ros/share/ament_index/resource_index/packages\n'}
+[1.312329] (yolov5_ros) StdoutLine: {'line': b'copying package.xml -> /home/kkh/Ros_yolov5/install/yolov5_ros/share/yolov5_ros\n'}
+[1.327994] (srv_example) JobEnded: {'identifier': 'srv_example', 'rc': 0}
+[1.334909] (yolov5_ros) CommandEnded: {'returncode': 0}
+[1.351572] (yolov5_ros) JobEnded: {'identifier': 'yolov5_ros', 'rc': 0}
+[1.401009] (-) TimerEvent: {}
+[1.446156] (bboxes) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.501174] (-) TimerEvent: {}
+[1.578621] (bboxes) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.601282] (-) TimerEvent: {}
+[1.607897] (bboxes) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.610208] (bboxes) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.663878] (bboxes) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.664175] (bboxes) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.664288] (bboxes) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.664386] (bboxes) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.701447] (-) TimerEvent: {}
+[1.704647] (bboxes) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.801651] (-) TimerEvent: {}
+[1.853368] (bboxes) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.880062] (bboxes) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.881493] (bboxes) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.882597] (bboxes) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.885523] (bboxes) StdoutLine: {'line': b'-- Configuring done (1.8s)\n'}
+[1.901817] (-) TimerEvent: {}
+[1.934120] (bboxes) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.936434] (bboxes) StdoutLine: {'line': b'-- Build files have been written to: /home/kkh/Ros_yolov5/build/bboxes\n'}
+[1.948661] (bboxes) CommandEnded: {'returncode': 0}
+[1.949546] (bboxes) JobProgress: {'identifier': 'bboxes', 'progress': 'build'}
+[1.950270] (bboxes) Command: {'cmd': ['/home/kkh/.local/bin/cmake', '--build', '/home/kkh/Ros_yolov5/build/bboxes', '--', '-j8', '-l8'], 'cwd': '/home/kkh/Ros_yolov5/build/bboxes', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'kkh'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '2410'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kkh/yolov5_ros2/install/bboxes/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/kkh'), ('OLDPWD', '/home/kkh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2217'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7410'), ('_colcon_cd_root', '/home/kkh/gcamp_ros2_ws'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/kkh/yolov5_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kkh'), ('JOURNAL_STREAM', '8:54530'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kkh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/kkh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/kkh-Inspiron-5502:@/tmp/.ICE-unix/2447,unix/kkh-Inspiron-5502:/tmp/.ICE-unix/2447'), ('INVOCATION_ID', 'f2451840970e45daa203acbfb28866e9'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kkh/yolov5_ros2/install/yolov5_ros:/home/kkh/yolov5_ros2/install/srv_example:/home/kkh/yolov5_ros2/install/bboxes:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:968c8341-9b8a-4fa4-b050-4317c6c93629'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kkh/Ros_yolov5/build/bboxes'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kkh/yolov5_ros2/build/yolov5_ros:/home/kkh/yolov5_ros2/install/yolov5_ros/lib/python3.8/site-packages:/home/kkh/yolov5_ros2/build/srv_example:/home/kkh/yolov5_ros2/install/srv_example/lib/python3.8/site-packages:/home/kkh/yolov5_ros2/install/bboxes/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/kkh/yolov5_ros2/install/bboxes:/home/kkh/yolov5_ros2/install/yolov5_ros:/home/kkh/yolov5_ros2/install/srv_example:/opt/ros/foxy')]), 'shell': False}
+[2.001980] (-) TimerEvent: {}
+[2.004653] (bboxes) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.011850] (bboxes) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.102087] (-) TimerEvent: {}
+[2.202537] (-) TimerEvent: {}
+[2.302888] (-) TimerEvent: {}
+[2.373997] (bboxes) StdoutLine: {'line': b'[  5%] Built target bboxes__cpp\n'}
+[2.377736] (bboxes) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.378065] (bboxes) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.378210] (bboxes) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.398181] (bboxes) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/bboxes__rosidl_generator_c.dir/rosidl_generator_c/bboxes/msg/detail/first_pick_box__functions.c.o\x1b[0m\n'}
+[2.399075] (bboxes) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/bboxes__rosidl_generator_c.dir/rosidl_generator_c/bboxes/srv/detail/image_first_pick_box__functions.c.o\x1b[0m\n'}
+[2.402982] (-) TimerEvent: {}
+[2.471595] (bboxes) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libbboxes__rosidl_generator_c.so\x1b[0m\n'}
+[2.494855] (bboxes) StdoutLine: {'line': b'[ 20%] Built target bboxes__rosidl_generator_c\n'}
+[2.499472] (bboxes) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.500494] (bboxes) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.503060] (-) TimerEvent: {}
+[2.603321] (-) TimerEvent: {}
+[2.632853] (bboxes) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/bboxes__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bboxes/msg/first_pick_box__type_support.cpp.o\x1b[0m\n'}
+[2.633772] (bboxes) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/bboxes__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bboxes/srv/image_first_pick_box__type_support.cpp.o\x1b[0m\n'}
+[2.651889] (bboxes) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/bboxes__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bboxes/msg/detail/first_pick_box__type_support.cpp.o\x1b[0m\n'}
+[2.652280] (bboxes) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/bboxes__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bboxes/srv/detail/image_first_pick_box__type_support.cpp.o\x1b[0m\n'}
+[2.703432] (-) TimerEvent: {}
+[2.747616] (bboxes) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/bboxes__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bboxes/msg/detail/dds_fastrtps/first_pick_box__type_support.cpp.o\x1b[0m\n'}
+[2.747915] (bboxes) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/bboxes__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bboxes/srv/detail/dds_fastrtps/image_first_pick_box__type_support.cpp.o\x1b[0m\n'}
+[2.803548] (-) TimerEvent: {}
+[2.903891] (-) TimerEvent: {}
+[2.957590] (bboxes) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/bboxes__rosidl_typesupport_c.dir/rosidl_typesupport_c/bboxes/msg/first_pick_box__type_support.cpp.o\x1b[0m\n'}
+[2.978872] (bboxes) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/bboxes__rosidl_typesupport_c.dir/rosidl_typesupport_c/bboxes/srv/image_first_pick_box__type_support.cpp.o\x1b[0m\n'}
+[3.004012] (-) TimerEvent: {}
+[3.010903] (bboxes) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/bboxes__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bboxes/srv/detail/image_first_pick_box__type_support.c.o\x1b[0m\n'}
+[3.011166] (bboxes) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/bboxes__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bboxes/msg/detail/first_pick_box__type_support.c.o\x1b[0m\n'}
+[3.017035] (bboxes) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libbboxes__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.059843] (bboxes) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libbboxes__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.060178] (bboxes) StdoutLine: {'line': b'[ 56%] Built target bboxes__rosidl_typesupport_c\n'}
+[3.063391] (bboxes) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libbboxes__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.082091] (bboxes) StdoutLine: {'line': b'[ 58%] Built target bboxes__rosidl_typesupport_introspection_c\n'}
+[3.100054] (bboxes) StdoutLine: {'line': b'[ 58%] Built target bboxes__rosidl_typesupport_cpp\n'}
+[3.104111] (-) TimerEvent: {}
+[3.150152] (bboxes) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libbboxes__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.204238] (-) TimerEvent: {}
+[3.206135] (bboxes) StdoutLine: {'line': b'[ 61%] Built target bboxes__rosidl_typesupport_introspection_cpp\n'}
+[3.300558] (bboxes) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libbboxes__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.304335] (-) TimerEvent: {}
+[3.371406] (bboxes) StdoutLine: {'line': b'[ 64%] Built target bboxes__rosidl_typesupport_fastrtps_cpp\n'}
+[3.375515] (bboxes) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.404530] (-) TimerEvent: {}
+[3.504910] (-) TimerEvent: {}
+[3.605223] (-) TimerEvent: {}
+[3.655398] (bboxes) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/bboxes__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bboxes/srv/detail/image_first_pick_box__type_support_c.cpp.o\x1b[0m\n'}
+[3.655575] (bboxes) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/bboxes__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bboxes/msg/detail/first_pick_box__type_support_c.cpp.o\x1b[0m\n'}
+[3.705330] (-) TimerEvent: {}
+[3.805663] (-) TimerEvent: {}
+[3.906021] (-) TimerEvent: {}
+[3.957574] (bboxes) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libbboxes__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.006125] (-) TimerEvent: {}
+[4.023626] (bboxes) StdoutLine: {'line': b'[ 74%] Built target bboxes__rosidl_typesupport_fastrtps_c\n'}
+[4.031145] (bboxes) StdoutLine: {'line': b'[ 74%] Built target bboxes\n'}
+[4.039260] (bboxes) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.106219] (-) TimerEvent: {}
+[4.206513] (-) TimerEvent: {}
+[4.306828] (-) TimerEvent: {}
+[4.407113] (-) TimerEvent: {}
+[4.507373] (-) TimerEvent: {}
+[4.607657] (-) TimerEvent: {}
+[4.608625] (bboxes) StdoutLine: {'line': b'[ 76%] Built target bboxes__py\n'}
+[4.615841] (bboxes) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/bboxes__python.dir/rosidl_generator_py/bboxes/msg/_first_pick_box_s.c.o\x1b[0m\n'}
+[4.616074] (bboxes) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/bboxes__python.dir/rosidl_generator_py/bboxes/srv/_image_first_pick_box_s.c.o\x1b[0m\n'}
+[4.700886] (bboxes) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/bboxes/libbboxes__python.so\x1b[0m\n'}
+[4.707755] (-) TimerEvent: {}
+[4.741455] (bboxes) StdoutLine: {'line': b'[ 84%] Built target bboxes__python\n'}
+[4.755954] (bboxes) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/bboxes__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/bboxes/_bboxes_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.756350] (bboxes) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/bboxes__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/bboxes/_bboxes_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.756527] (bboxes) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/bboxes__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/bboxes/_bboxes_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.807970] (-) TimerEvent: {}
+[4.835653] (bboxes) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/bboxes/bboxes_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.835856] (bboxes) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/bboxes/bboxes_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.836728] (bboxes) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/bboxes/bboxes_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.859732] (bboxes) StdoutLine: {'line': b'[100%] Built target bboxes__rosidl_typesupport_c__pyext\n'}
+[4.859936] (bboxes) StdoutLine: {'line': b'[100%] Built target bboxes__rosidl_typesupport_introspection_c__pyext\n'}
+[4.888653] (bboxes) StdoutLine: {'line': b'[100%] Built target bboxes__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.895980] (bboxes) CommandEnded: {'returncode': 0}
+[4.908193] (-) TimerEvent: {}
+[5.008606] (-) TimerEvent: {}
+[5.022521] (bboxes) JobProgress: {'identifier': 'bboxes', 'progress': 'install'}
+[5.085287] (bboxes) Command: {'cmd': ['/home/kkh/.local/bin/cmake', '--install', '/home/kkh/Ros_yolov5/build/bboxes'], 'cwd': '/home/kkh/Ros_yolov5/build/bboxes', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'kkh'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '2410'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kkh/yolov5_ros2/install/bboxes/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/kkh'), ('OLDPWD', '/home/kkh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2217'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7410'), ('_colcon_cd_root', '/home/kkh/gcamp_ros2_ws'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/kkh/yolov5_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kkh'), ('JOURNAL_STREAM', '8:54530'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kkh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/kkh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/kkh-Inspiron-5502:@/tmp/.ICE-unix/2447,unix/kkh-Inspiron-5502:/tmp/.ICE-unix/2447'), ('INVOCATION_ID', 'f2451840970e45daa203acbfb28866e9'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kkh/yolov5_ros2/install/yolov5_ros:/home/kkh/yolov5_ros2/install/srv_example:/home/kkh/yolov5_ros2/install/bboxes:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:968c8341-9b8a-4fa4-b050-4317c6c93629'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kkh/Ros_yolov5/build/bboxes'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kkh/yolov5_ros2/build/yolov5_ros:/home/kkh/yolov5_ros2/install/yolov5_ros/lib/python3.8/site-packages:/home/kkh/yolov5_ros2/build/srv_example:/home/kkh/yolov5_ros2/install/srv_example/lib/python3.8/site-packages:/home/kkh/yolov5_ros2/install/bboxes/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/kkh/yolov5_ros2/install/bboxes:/home/kkh/yolov5_ros2/install/yolov5_ros:/home/kkh/yolov5_ros2/install/srv_example:/opt/ros/foxy')]), 'shell': False}
+[5.108811] (-) TimerEvent: {}
+[5.141558] (bboxes) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.142724] (bboxes) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.143213] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/ament_index/resource_index/rosidl_interfaces/bboxes\n'}
+[5.148136] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/include/bboxes/msg/detail/first_pick_box__functions.h\n'}
+[5.151983] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/include/bboxes/msg/detail/first_pick_box__struct.h\n'}
+[5.155978] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/include/bboxes/msg/detail/first_pick_box__type_support.h\n'}
+[5.159818] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/include/bboxes/msg/first_pick_box.h\n'}
+[5.163812] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/include/bboxes/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.167613] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/include/bboxes/srv/detail/image_first_pick_box__functions.h\n'}
+[5.171571] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/include/bboxes/srv/detail/image_first_pick_box__struct.h\n'}
+[5.175348] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/include/bboxes/srv/detail/image_first_pick_box__type_support.h\n'}
+[5.179325] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/include/bboxes/srv/image_first_pick_box.h\n'}
+[5.183414] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/environment/library_path.sh\n'}
+[5.187453] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/environment/library_path.dsv\n'}
+[5.192004] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/include/bboxes/msg/detail/first_pick_box__rosidl_typesupport_fastrtps_c.h\n'}
+[5.195825] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/include/bboxes/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.199585] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/include/bboxes/srv/detail/image_first_pick_box__rosidl_typesupport_fastrtps_c.h\n'}
+[5.203819] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/lib/libbboxes__rosidl_typesupport_fastrtps_c.so\n'}
+[5.208257] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/include/bboxes/msg/detail/first_pick_box__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.208885] (-) TimerEvent: {}
+[5.212180] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/include/bboxes/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.216128] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/include/bboxes/srv/detail/image_first_pick_box__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.220304] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/lib/libbboxes__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.224569] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/include/bboxes/msg/detail/first_pick_box__rosidl_typesupport_introspection_c.h\n'}
+[5.228352] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/include/bboxes/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.232060] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/include/bboxes/srv/detail/image_first_pick_box__rosidl_typesupport_introspection_c.h\n'}
+[5.236508] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/include/bboxes/msg/detail/first_pick_box__builder.hpp\n'}
+[5.240353] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/include/bboxes/msg/detail/first_pick_box__struct.hpp\n'}
+[5.244260] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/include/bboxes/msg/detail/first_pick_box__traits.hpp\n'}
+[5.248152] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/include/bboxes/msg/detail/first_pick_box__type_support.hpp\n'}
+[5.251809] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/include/bboxes/msg/first_pick_box.hpp\n'}
+[5.255648] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/include/bboxes/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.259465] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/include/bboxes/srv/detail/image_first_pick_box__builder.hpp\n'}
+[5.263291] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/include/bboxes/srv/detail/image_first_pick_box__struct.hpp\n'}
+[5.267215] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/include/bboxes/srv/detail/image_first_pick_box__traits.hpp\n'}
+[5.271009] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/include/bboxes/srv/detail/image_first_pick_box__type_support.hpp\n'}
+[5.274933] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/include/bboxes/srv/image_first_pick_box.hpp\n'}
+[5.279251] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/include/bboxes/msg/detail/first_pick_box__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.283378] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/include/bboxes/srv/detail/image_first_pick_box__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.287373] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/environment/pythonpath.sh\n'}
+[5.291406] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/environment/pythonpath.dsv\n'}
+[5.295299] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/lib/python3.8/site-packages/bboxes/__init__.py\n'}
+[5.299543] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/lib/python3.8/site-packages/bboxes/msg/__init__.py\n'}
+[5.303432] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/lib/python3.8/site-packages/bboxes/msg/_first_pick_box.py\n'}
+[5.307697] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/lib/python3.8/site-packages/bboxes/srv/__init__.py\n'}
+[5.308985] (-) TimerEvent: {}
+[5.311432] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/lib/python3.8/site-packages/bboxes/srv/_image_first_pick_box.py\n'}
+[5.315473] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/lib/python3.8/site-packages/bboxes/bboxes_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.319410] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/lib/python3.8/site-packages/bboxes/bboxes_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.323602] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/lib/python3.8/site-packages/bboxes/bboxes_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.327831] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/lib/libbboxes__python.so\n'}
+[5.331766] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/msg/FirstPickBox.idl\n'}
+[5.335746] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/srv/ImageFirstPickBox.idl\n'}
+[5.339866] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/msg/FirstPickBox.msg\n'}
+[5.343715] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/srv/ImageFirstPickBox.srv\n'}
+[5.347661] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/srv/ImageFirstPickBox_Request.msg\n'}
+[5.351574] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/srv/ImageFirstPickBox_Response.msg\n'}
+[5.355677] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/ament_index/resource_index/package_run_dependencies/bboxes\n'}
+[5.359701] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/ament_index/resource_index/parent_prefix_path/bboxes\n'}
+[5.363849] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/environment/ament_prefix_path.sh\n'}
+[5.367664] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/environment/ament_prefix_path.dsv\n'}
+[5.371627] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/environment/path.sh\n'}
+[5.375449] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/environment/path.dsv\n'}
+[5.379464] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/local_setup.bash\n'}
+[5.383487] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/local_setup.sh\n'}
+[5.387452] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/local_setup.zsh\n'}
+[5.391510] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/local_setup.dsv\n'}
+[5.395490] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/package.dsv\n'}
+[5.399447] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/ament_index/resource_index/packages/bboxes\n'}
+[5.403536] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/cmake/rosidl_cmake-extras.cmake\n'}
+[5.407611] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.409078] (-) TimerEvent: {}
+[5.411448] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.415342] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.419225] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.422968] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.426790] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.430770] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/cmake/bboxesConfig.cmake\n'}
+[5.434618] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/cmake/bboxesConfig-version.cmake\n'}
+[5.438744] (bboxes) StdoutLine: {'line': b'-- Symlinking: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/package.xml\n'}
+[5.442742] (bboxes) StdoutLine: {'line': b'-- Installing: /home/kkh/Ros_yolov5/install/bboxes/lib/libbboxes__rosidl_generator_c.so\n'}
+[5.443291] (bboxes) StdoutLine: {'line': b'-- Set runtime path of "/home/kkh/Ros_yolov5/install/bboxes/lib/libbboxes__rosidl_generator_c.so" to ""\n'}
+[5.443491] (bboxes) StdoutLine: {'line': b'-- Installing: /home/kkh/Ros_yolov5/install/bboxes/lib/libbboxes__rosidl_typesupport_introspection_c.so\n'}
+[5.443801] (bboxes) StdoutLine: {'line': b'-- Set runtime path of "/home/kkh/Ros_yolov5/install/bboxes/lib/libbboxes__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.443999] (bboxes) StdoutLine: {'line': b'-- Installing: /home/kkh/Ros_yolov5/install/bboxes/lib/libbboxes__rosidl_typesupport_c.so\n'}
+[5.444181] (bboxes) StdoutLine: {'line': b'-- Set runtime path of "/home/kkh/Ros_yolov5/install/bboxes/lib/libbboxes__rosidl_typesupport_c.so" to ""\n'}
+[5.444323] (bboxes) StdoutLine: {'line': b'-- Installing: /home/kkh/Ros_yolov5/install/bboxes/lib/libbboxes__rosidl_typesupport_introspection_cpp.so\n'}
+[5.444709] (bboxes) StdoutLine: {'line': b'-- Set runtime path of "/home/kkh/Ros_yolov5/install/bboxes/lib/libbboxes__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.444875] (bboxes) StdoutLine: {'line': b'-- Installing: /home/kkh/Ros_yolov5/install/bboxes/lib/libbboxes__rosidl_typesupport_cpp.so\n'}
+[5.445220] (bboxes) StdoutLine: {'line': b'-- Set runtime path of "/home/kkh/Ros_yolov5/install/bboxes/lib/libbboxes__rosidl_typesupport_cpp.so" to ""\n'}
+[5.498619] (bboxes) StdoutLine: {'line': b"Compiling '/home/kkh/Ros_yolov5/install/bboxes/lib/python3.8/site-packages/bboxes/__init__.py'...\n"}
+[5.502301] (bboxes) StdoutLine: {'line': b'-- Installing: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/cmake/bboxes__rosidl_generator_cExport.cmake\n'}
+[5.502547] (bboxes) StdoutLine: {'line': b'-- Installing: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/cmake/bboxes__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.502760] (bboxes) StdoutLine: {'line': b'-- Installing: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/cmake/bboxes__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.502927] (bboxes) StdoutLine: {'line': b'-- Installing: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/cmake/bboxes__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.503371] (bboxes) StdoutLine: {'line': b'-- Installing: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/cmake/bboxes__rosidl_typesupport_cExport.cmake\n'}
+[5.503451] (bboxes) StdoutLine: {'line': b'-- Installing: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/cmake/bboxes__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.503538] (bboxes) StdoutLine: {'line': b'-- Installing: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/cmake/bboxes__rosidl_generator_cppExport.cmake\n'}
+[5.503592] (bboxes) StdoutLine: {'line': b'-- Installing: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/cmake/bboxes__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.503643] (bboxes) StdoutLine: {'line': b'-- Installing: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/cmake/bboxes__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.503693] (bboxes) StdoutLine: {'line': b'-- Installing: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/cmake/bboxes__rosidl_typesupport_cppExport.cmake\n'}
+[5.503744] (bboxes) StdoutLine: {'line': b'-- Installing: /home/kkh/Ros_yolov5/install/bboxes/share/bboxes/cmake/bboxes__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.508750] (bboxes) CommandEnded: {'returncode': 0}
+[5.511487] (-) TimerEvent: {}
+[5.611877] (-) TimerEvent: {}
+[5.690962] (bboxes) JobEnded: {'identifier': 'bboxes', 'rc': 0}
+[5.692411] (-) EventReactorShutdown: {}

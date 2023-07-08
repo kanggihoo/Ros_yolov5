@@ -1,0 +1,6 @@
+[console_scripts]
+image_firstpick = yolov5_ros.image_firstpick:ros_main
+publish_image_first = yolov5_ros.publish_image_first:ros_main
+srv_client = yolov5_ros.service_client:ros_main
+subscribe_image_first = yolov5_ros.subscribe_image_first:ros_main
+

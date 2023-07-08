@@ -1,0 +1,9 @@
+source;share/srv_example/hook/pythonpath.ps1
+source;share/srv_example/hook/pythonpath.dsv
+source;share/srv_example/hook/pythonpath.sh
+source;share/srv_example/hook/ament_prefix_path.ps1
+source;share/srv_example/hook/ament_prefix_path.dsv
+source;share/srv_example/hook/ament_prefix_path.sh
+source;../../build/srv_example/share/srv_example/hook/pythonpath_develop.ps1
+source;../../build/srv_example/share/srv_example/hook/pythonpath_develop.dsv
+source;../../build/srv_example/share/srv_example/hook/pythonpath_develop.sh

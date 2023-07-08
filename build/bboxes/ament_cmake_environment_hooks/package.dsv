@@ -1,0 +1,4 @@
+source;share/bboxes/local_setup.bash
+source;share/bboxes/local_setup.dsv
+source;share/bboxes/local_setup.sh
+source;share/bboxes/local_setup.zsh

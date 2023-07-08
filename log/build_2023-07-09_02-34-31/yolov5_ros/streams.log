@@ -1,0 +1,28 @@
+[0.876s] Invoking command in '/home/kkh/Ros_yolov5/build/yolov5_ros': PYTHONPATH=/home/kkh/Ros_yolov5/build/yolov5_ros/prefix_override:/home/kkh/Ros_yolov5/install/yolov5_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/kkh/Ros_yolov5/build/yolov5_ros/build --no-deps install_data
+[1.097s] running develop
+[1.227s] running egg_info
+[1.227s] creating yolov5_ros.egg-info
+[1.227s] writing yolov5_ros.egg-info/PKG-INFO
+[1.227s] writing dependency_links to yolov5_ros.egg-info/dependency_links.txt
+[1.227s] writing entry points to yolov5_ros.egg-info/entry_points.txt
+[1.227s] writing requirements to yolov5_ros.egg-info/requires.txt
+[1.228s] writing top-level names to yolov5_ros.egg-info/top_level.txt
+[1.228s] writing manifest file 'yolov5_ros.egg-info/SOURCES.txt'
+[1.257s] reading manifest file 'yolov5_ros.egg-info/SOURCES.txt'
+[1.257s] writing manifest file 'yolov5_ros.egg-info/SOURCES.txt'
+[1.288s] running build_ext
+[1.289s] Creating /home/kkh/Ros_yolov5/install/yolov5_ros/lib/python3.8/site-packages/site.py
+[1.291s] Creating /home/kkh/Ros_yolov5/install/yolov5_ros/lib/python3.8/site-packages/yolov5-ros.egg-link (link to .)
+[1.291s] Installing image_firstpick script to /home/kkh/Ros_yolov5/install/yolov5_ros/lib/yolov5_ros
+[1.291s] Installing publish_image_first script to /home/kkh/Ros_yolov5/install/yolov5_ros/lib/yolov5_ros
+[1.292s] Installing srv_client script to /home/kkh/Ros_yolov5/install/yolov5_ros/lib/yolov5_ros
+[1.292s] Installing subscribe_image_first script to /home/kkh/Ros_yolov5/install/yolov5_ros/lib/yolov5_ros
+[1.292s] 
+[1.292s] Installed /home/kkh/Ros_yolov5/build/yolov5_ros
+[1.292s] running install_data
+[1.292s] creating /home/kkh/Ros_yolov5/install/yolov5_ros/share/ament_index
+[1.292s] creating /home/kkh/Ros_yolov5/install/yolov5_ros/share/ament_index/resource_index
+[1.292s] creating /home/kkh/Ros_yolov5/install/yolov5_ros/share/ament_index/resource_index/packages
+[1.292s] copying resource/yolov5_ros -> /home/kkh/Ros_yolov5/install/yolov5_ros/share/ament_index/resource_index/packages
+[1.292s] copying package.xml -> /home/kkh/Ros_yolov5/install/yolov5_ros/share/yolov5_ros
+[1.317s] Invoked command in '/home/kkh/Ros_yolov5/build/yolov5_ros' returned '0': PYTHONPATH=/home/kkh/Ros_yolov5/build/yolov5_ros/prefix_override:/home/kkh/Ros_yolov5/install/yolov5_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/kkh/Ros_yolov5/build/yolov5_ros/build --no-deps install_data

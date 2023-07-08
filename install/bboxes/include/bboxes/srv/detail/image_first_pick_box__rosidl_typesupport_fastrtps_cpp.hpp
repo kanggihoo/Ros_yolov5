@@ -1,0 +1,1 @@
+/home/kkh/Ros_yolov5/build/bboxes/rosidl_typesupport_fastrtps_cpp/bboxes/srv/detail/image_first_pick_box__rosidl_typesupport_fastrtps_cpp.hpp

@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating srv_example.egg-info
+writing srv_example.egg-info/PKG-INFO
+writing dependency_links to srv_example.egg-info/dependency_links.txt
+writing entry points to srv_example.egg-info/entry_points.txt
+writing requirements to srv_example.egg-info/requires.txt
+writing top-level names to srv_example.egg-info/top_level.txt
+writing manifest file 'srv_example.egg-info/SOURCES.txt'
+reading manifest file 'srv_example.egg-info/SOURCES.txt'
+writing manifest file 'srv_example.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kkh/Ros_yolov5/install/srv_example/lib/python3.8/site-packages/site.py
+Creating /home/kkh/Ros_yolov5/install/srv_example/lib/python3.8/site-packages/srv-example.egg-link (link to .)
+Installing srv_client script to /home/kkh/Ros_yolov5/install/srv_example/lib/srv_example
+Installing srv_server script to /home/kkh/Ros_yolov5/install/srv_example/lib/srv_example
+
+Installed /home/kkh/Ros_yolov5/build/srv_example
+running install_data
+creating /home/kkh/Ros_yolov5/install/srv_example/share/ament_index
+creating /home/kkh/Ros_yolov5/install/srv_example/share/ament_index/resource_index
+creating /home/kkh/Ros_yolov5/install/srv_example/share/ament_index/resource_index/packages
+copying resource/srv_example -> /home/kkh/Ros_yolov5/install/srv_example/share/ament_index/resource_index/packages
+copying package.xml -> /home/kkh/Ros_yolov5/install/srv_example/share/srv_example

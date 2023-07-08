@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/kkh/Ros_yolov5/build/bboxes/rosidl_generator_py/bboxes/bboxes_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" "TARGETS" "bboxes__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.8/site-packages/bboxes")

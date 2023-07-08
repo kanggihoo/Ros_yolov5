@@ -1,0 +1,7 @@
+{
+  "package_name": "bboxes",
+  "non_idl_tuples": [
+    "/home/kkh/Ros_yolov5/src/bboxes:msg/FirstPickBox.msg",
+    "/home/kkh/Ros_yolov5/src/bboxes:srv/ImageFirstPickBox.srv"
+  ]
+}

@@ -1,0 +1,1 @@
+/home/kkh/Ros_yolov5/build/bboxes/rosidl_generator_c/bboxes/srv/image_first_pick_box.h

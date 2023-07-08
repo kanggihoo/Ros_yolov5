@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/kkh/Ros_yolov5/build/bboxes/rosidl_generator_py/bboxes/libbboxes__python.so" "TARGETS" "bboxes__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

@@ -1,0 +1,1 @@
+/home/kkh/Ros_yolov5/build/bboxes/ament_cmake_core/bboxesConfig-version.cmake
